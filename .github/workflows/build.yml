@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: statische-webseite-build
-          path: dist/
+          path: src/
