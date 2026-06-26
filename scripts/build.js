@@ -3,7 +3,7 @@ const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
 const srcDir = path.join(root, "src");
-const distDir = path.join(root, "dist2");
+const distDir = path.join(root, "dist");
 
 fs.rmSync(distDir, { recursive: true, force: true });
 fs.mkdirSync(distDir, { recursive: true });
