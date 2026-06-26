@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: node:22-alpine
+    runs-on: alpine:latest
 
     steps:
       - name: Repository auschecken
